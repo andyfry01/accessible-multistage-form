@@ -1,0 +1,27 @@
+@font-face { 
+    font-family: Abril; src: url('/assets/fonts/AbrilFatface-Regular.ttf'); 
+    font-family: PTSans; src: url('/assets/fonts/PTSans-Regular.ttf'); 
+} 
+
+.abril, h1, h2, h3, h4, h5, h6 {
+    font-family: Abril, sans-serif;
+}
+
+.pt-sans, p, span, li, a {
+    font-family: PTSans, sans-serif;
+}
+
+.skip-link {
+    background: #e77e23;
+    height: 30px;
+    margin-bottom: 2rem;
+    /* left: 50%; */
+    padding: 8px;
+    /* position: absolute; */
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+  }
+  
+.skip-link:focus {
+    transform: translateY(0%);
+}

@@ -1,0 +1,22 @@
+{
+  "private": false,
+  "name": "accessbile-react-multistage-form",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "preact build",
+    "serve": "serve -s build",
+    "dev": "preact watch",
+    "copy-tailwind": "cp node_modules/tailwindcss/dist/tailwind.css src/assets/tailwind.css",
+    "copy-animatecss": "cp node_modules/animate.css/animate.min.css src/assets/animate.min.css",
+    "jettison-reactor-core": "NODE_ENV=production npx tailwindcss-cli@latest build ./src/assets/tailwind.css -c ./tailwind.config.js -o ./src/assets/tailwind.mini.css"
+  },
+  "devDependencies": {
+    "animate.css": "^4.1.1",
+    "page": "^1.11.6",
+    "preact": "^10.3.2",
+    "preact-cli": "^3.0.0",
+    "preact-router": "^3.2.1",
+    "tailwindcss": "^2.2.7"
+  }
+}
