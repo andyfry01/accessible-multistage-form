@@ -1,5 +1,12 @@
-import { h } from 'preact';
+import { h } from "preact";
 
-const Confirmation = () => <p>Roger Roger</p>
+const Confirmation = (props) => {
+  return (
+    <>
+      <h2>Confirmation</h2>
+      <p>Does everything look correct?</p>
+    </>
+  );
+};
 
-export default Confirmation
+export default Confirmation;

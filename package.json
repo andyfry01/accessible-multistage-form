@@ -18,5 +18,8 @@
     "preact-cli": "^3.0.0",
     "preact-router": "^3.2.1",
     "tailwindcss": "^2.2.7"
+  },
+  "dependencies": {
+    "nanoid": "^3.1.23"
   }
 }
